@@ -31,7 +31,7 @@ input {
     height: auto;
     width: 100%;
     overflow: hidden;
-    margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 .slider-wrapper {
@@ -53,8 +53,6 @@ input {
 
 .slide img{
     width: 100%; 
-    /* height: 100%;  */
-   /* object-fit: cover; */
    border-radius: 1.5rem;
 }
 
@@ -99,35 +97,43 @@ input {
 
 .bar:hover {
     cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 
 .bar:hover .dot {
-    border-radius: 50%;
+    background-color: azure;
+    transition: all .3s ease-in-out;
 }
 
 .dot {
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
-    background: rgb(99, 9, 255);
+    background-color: rgb(0, 68, 255);
+    transition: all .3s ease-in-out;
+    
 }
 
 /*------------------------------------------------------------*/
 
 #r1:checked~.text-nav>.navigation>label[for="r1"] .dot {
-    background-color: chartreuse;
+    border: 2px solid rgb(0, 68, 255);
+     background-color: rgb(50, 50, 50);
 }
 
 #r2:checked~.text-nav>.navigation>label[for="r2"] .dot {
-    background-color: chartreuse;
+    border: 2px solid rgb(0, 68, 255);
+     background-color: rgb(50, 50, 50);
 }
 
 #r3:checked~.text-nav>.navigation>label[for="r3"] .dot {
-    background-color: chartreuse;
+    border: 2px solid rgb(0, 68, 255);
+     background-color: rgb(50, 50, 50);
 }
 
 #r4:checked~.text-nav>.navigation>label[for="r4"] .dot {
-    background-color: chartreuse;
+    border: 2px solid rgb(0, 68, 255);
+     background-color: rgb(50, 50, 50);
 }
 
 
