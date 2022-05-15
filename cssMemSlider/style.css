@@ -72,7 +72,7 @@ input {
 
 .slider-text {
     display: flex;
-    gap: 1px;
+    gap: 0.1rem;
     width: 400%;
     height: 100%;
 }
@@ -118,22 +118,22 @@ input {
 /*------------------------------------------------------------*/
 
 #r1:checked~.text-nav>.navigation>label[for="r1"] .dot {
-    border: 2px solid rgb(0, 68, 255);
+    border: 0.2rem solid rgb(0, 68, 255);
      background-color: rgb(50, 50, 50);
 }
 
 #r2:checked~.text-nav>.navigation>label[for="r2"] .dot {
-    border: 2px solid rgb(0, 68, 255);
+    border: 0.2rem solid rgb(0, 68, 255);
      background-color: rgb(50, 50, 50);
 }
 
 #r3:checked~.text-nav>.navigation>label[for="r3"] .dot {
-    border: 2px solid rgb(0, 68, 255);
+    border: 0.2rem solid rgb(0, 68, 255);
      background-color: rgb(50, 50, 50);
 }
 
 #r4:checked~.text-nav>.navigation>label[for="r4"] .dot {
-    border: 2px solid rgb(0, 68, 255);
+    border: 0.2rem solid rgb(0, 68, 255);
      background-color: rgb(50, 50, 50);
 }
 
