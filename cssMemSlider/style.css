@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    font-size: 10px;
-}
+
 
 body {
     background-color: rgb(50, 50, 50);
@@ -47,13 +45,13 @@ input {
     display: flex;
     align-items: center;
     color: azure;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .slide img{
     width: 100%; 
-   border-radius: 1.5rem;
+   border-radius: 1rem;
 }
 
 /*-------------------------------------text-nav-----------------------------*/
@@ -65,7 +63,7 @@ input {
 }
 
 .slider-window-text {
-    height: 4rem;
+    height: 3rem;
     width: 100%;
     overflow: hidden;
 }
@@ -82,15 +80,15 @@ input {
 
 .navigation {
     width: 15%;
-    height: 2rem;
+    height: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .bar {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,8 +106,8 @@ input {
 
 
 .dot {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     background-color: rgb(0, 68, 255);
     transition: all .3s ease-in-out;
@@ -119,65 +117,65 @@ input {
 /*------------------------------------------------------------*/
 
 #r1:checked~.text-nav>.navigation>label[for="r1"] .dot {
-    border: 0.2rem solid rgb(0, 68, 255);
+    border: 0.15rem solid rgb(0, 68, 255);
      background-color: rgb(50, 50, 50);
 }
 
 #r2:checked~.text-nav>.navigation>label[for="r2"] .dot {
-    border: 0.2rem solid rgb(0, 68, 255);
+    border: 0.15rem solid rgb(0, 68, 255);
      background-color: rgb(50, 50, 50);
 }
 
 #r3:checked~.text-nav>.navigation>label[for="r3"] .dot {
-    border: 0.2rem solid rgb(0, 68, 255);
+    border: 0.15rem solid rgb(0, 68, 255);
      background-color: rgb(50, 50, 50);
 }
 
 #r4:checked~.text-nav>.navigation>label[for="r4"] .dot {
-    border: 0.2rem solid rgb(0, 68, 255);
+    border: 0.15rem solid rgb(0, 68, 255);
      background-color: rgb(50, 50, 50);
 }
 
 /*------------------------------------------------------------*/
 
 #r1:checked~.text-nav>.navigation>label[for="r1"]:hover .dot {
-    border: 0.2rem solid azure;
+    border: 0.15rem solid azure;
      background-color: rgb(50, 50, 50);
 }
 
 #r2:checked~.text-nav>.navigation>label[for="r2"]:hover .dot {
-    border: 0.2rem solid azure;
+    border: 0.15rem solid azure;
      background-color: rgb(50, 50, 50);
 }
 
 #r3:checked~.text-nav>.navigation>label[for="r3"]:hover .dot {
-    border: 0.2rem solid azure;
+    border: 0.15rem solid azure;
      background-color: rgb(50, 50, 50);
 }
 
 #r4:checked~.text-nav>.navigation>label[for="r4"]:hover .dot {
-    border: 0.2rem solid azure;
+    border: 0.15rem solid azure;
      background-color: rgb(50, 50, 50);
 }
 /*------------------------------------------------------------*/
 
 #r1:checked~.text-nav>.navigation>label[for="r1"]:active .dot {
-    border: 0.2rem solid rgb(150, 150, 150);
+    border: 0.15rem solid rgb(150, 150, 150);
      background-color: rgb(50, 50, 50);
 }
 
 #r2:checked~.text-nav>.navigation>label[for="r2"]:active .dot {
-    border: 0.2rem solid rgb(150, 150, 150);
+    border: 0.15rem solid rgb(150, 150, 150);
      background-color: rgb(50, 50, 50);
 }
 
 #r3:checked~.text-nav>.navigation>label[for="r3"]:active .dot {
-    border: 0.2rem solid rgb(150, 150, 150);
+    border: 0.15rem solid rgb(150, 150, 150);
      background-color: rgb(50, 50, 50);
 }
 
 #r4:checked~.text-nav>.navigation>label[for="r4"]:active .dot {
-    border: 0.2rem solid rgb(150, 150, 150);
+    border: 0.15rem solid rgb(150, 150, 150);
      background-color: rgb(50, 50, 50);
 }
 
@@ -219,7 +217,7 @@ input {
 
 @media (max-width:768px){
  .slide {
-        font-size: 2rem;  
+        font-size: 1rem;  
     }
 
     .navigation{
@@ -240,7 +238,7 @@ input {
         align-items: start;
     }
     .slide {
-        font-size: 2rem;  
+        font-size: 1rem;  
     }
     .navigation {
         width: 40%;
